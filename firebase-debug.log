@@ -1,0 +1,138 @@
+[debug] [2025-11-06T22:24:14.033Z] ----------------------------------------------------------------------
+[debug] [2025-11-06T22:24:14.038Z] Command:       C:\nvm4w\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-11-06T22:24:14.038Z] CLI Version:   14.24.0
+[debug] [2025-11-06T22:24:14.038Z] Platform:      win32
+[debug] [2025-11-06T22:24:14.038Z] Node Version:  v22.21.0
+[debug] [2025-11-06T22:24:14.039Z] Time:          Thu Nov 06 2025 19:24:14 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-11-06T22:24:14.039Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Documents\Repositorio\dirty-soul
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-11-06T22:24:30.842Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-06T22:24:30.843Z] > authorizing via signed-in user (rogerio3lancer@gmail.com)
+[debug] [2025-11-06T22:24:44.392Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:24:44.393Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:24:44.396Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-11-06T22:24:44.396Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"BandaDirtySoul"}
+[debug] [2025-11-06T22:24:45.035Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-11-06T22:24:45.035Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"bandadirtysoul-8e579"}
+[debug] [2025-11-06T22:24:58.902Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:24:58.903Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:24:58.904Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-11-06T22:24:58.904Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"BandaDirtySoulSV"}
+[debug] [2025-11-06T22:24:59.294Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-11-06T22:24:59.294Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"bandadirtysoulsv"}
+[debug] [2025-11-06T22:25:08.886Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:08.886Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:08.888Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-11-06T22:25:08.888Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"BandaDirtySoul"}
+[debug] [2025-11-06T22:25:09.490Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-11-06T22:25:09.491Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"bandadirtysoul-aa654"}
+[debug] [2025-11-06T22:25:24.509Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:24.510Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:24.511Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-11-06T22:25:24.511Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"bandadirtysoulsv"}
+[debug] [2025-11-06T22:25:24.884Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-11-06T22:25:24.884Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_AVAILABLE","suggestedProjectId":"bandadirtysoulsv"}
+[debug] [2025-11-06T22:25:32.444Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:32.444Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:32.445Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-11-06T22:25:32.445Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"bandadirtysoulsv","name":"Dirty Soul"}
+[debug] [2025-11-06T22:25:33.668Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-11-06T22:25:33.668Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.9033302641752394118"}
+[debug] [2025-11-06T22:25:33.671Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:33.671Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:33.672Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 [none]
+[debug] [2025-11-06T22:25:34.460Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 200
+[debug] [2025-11-06T22:25:34.460Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 {"name":"operations/create_project.global.9033302641752394118"}
+[debug] [2025-11-06T22:25:34.969Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-11-06T22:25:34.970Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:34.970Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:34.970Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 [none]
+[debug] [2025-11-06T22:25:35.167Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 200
+[debug] [2025-11-06T22:25:35.167Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 {"name":"operations/create_project.global.9033302641752394118"}
+[debug] [2025-11-06T22:25:36.180Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-11-06T22:25:36.180Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:36.181Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:36.181Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 [none]
+[debug] [2025-11-06T22:25:36.388Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 200
+[debug] [2025-11-06T22:25:36.389Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.9033302641752394118 {"name":"operations/create_project.global.9033302641752394118","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"631609644067","projectId":"bandadirtysoulsv","lifecycleState":"ACTIVE","name":"Dirty Soul","createTime":"2025-11-06T22:25:34.756212Z"}}
+[debug] [2025-11-06T22:25:36.393Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:36.393Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:36.394Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/bandadirtysoulsv:addFirebase [none]
+[debug] [2025-11-06T22:25:39.844Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/bandadirtysoulsv:addFirebase 200
+[debug] [2025-11-06T22:25:39.844Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/bandadirtysoulsv:addFirebase {"name":"operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4"}
+[debug] [2025-11-06T22:25:39.845Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:39.845Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:39.846Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 [none]
+[debug] [2025-11-06T22:25:45.807Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 200
+[debug] [2025-11-06T22:25:45.807Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 {"name":"operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4"}
+[debug] [2025-11-06T22:25:46.308Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-11-06T22:25:46.309Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:46.309Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:46.310Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 [none]
+[debug] [2025-11-06T22:25:47.423Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 200
+[debug] [2025-11-06T22:25:47.423Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 {"name":"operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4"}
+[debug] [2025-11-06T22:25:48.423Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-11-06T22:25:48.423Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:48.423Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:48.424Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 [none]
+[debug] [2025-11-06T22:25:49.189Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 200
+[debug] [2025-11-06T22:25:49.189Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 {"name":"operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4"}
+[debug] [2025-11-06T22:25:51.190Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-11-06T22:25:51.191Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:51.191Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:51.191Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 [none]
+[debug] [2025-11-06T22:25:52.056Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 200
+[debug] [2025-11-06T22:25:52.057Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 {"name":"operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4"}
+[debug] [2025-11-06T22:25:56.069Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-11-06T22:25:56.070Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:56.070Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:56.070Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 [none]
+[debug] [2025-11-06T22:25:56.774Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 200
+[debug] [2025-11-06T22:25:56.774Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4 {"name":"operations/workflows/NDdkZGU1NjAtNGQ2Ni00NTgwLTllNWQtM2U3ZjYwYzZiNjI4","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"bandadirtysoulsv","projectNumber":"631609644067","displayName":"Dirty Soul","name":"projects/bandadirtysoulsv","resources":{"hostingSite":"bandadirtysoulsv"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: bandadirtysoulsv
+[info]    - Project Name: Dirty Soul
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/bandadirtysoulsv/overview
+[info] 
+=== Hosting Setup
+[debug] [2025-11-06T22:25:56.823Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:56.823Z] Checked if tokens are valid: true, expires at: 1762471431697
+[debug] [2025-11-06T22:25:56.823Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bandadirtysoulsv [none]
+[debug] [2025-11-06T22:25:57.832Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bandadirtysoulsv 200
+[debug] [2025-11-06T22:25:57.832Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bandadirtysoulsv {"projectId":"bandadirtysoulsv","projectNumber":"631609644067","displayName":"Dirty Soul","name":"projects/bandadirtysoulsv","resources":{"hostingSite":"bandadirtysoulsv"},"state":"ACTIVE","etag":"1_8cdef9c9-9264-4881-9166-c491e0f36cbe"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Detected a .git folder at C:\Users\User\Documents\Repositorio\dirty-soul 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=757066103&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...

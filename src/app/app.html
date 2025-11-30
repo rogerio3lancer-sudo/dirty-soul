@@ -1,0 +1,114 @@
+<header>
+  <div id="bg"></div>
+  <nav id="nav" [ngClass]="{ 'nav-animacao': headerPequeno }">
+    <ul>
+      <li><a href="#repertorio">Repertório</a></li>
+      <li><a Integrantes href="#integrantes">Integrantes</a></li>
+      <li>
+        <a href="#bg"><img src="assets/imagens/logo.png" alt="Logo Dirty Soul" /></a>
+      </li>
+      <li><a href="#agenda">Agenda</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+  <div id="bg-branco"></div>
+</header>
+<main>
+  <div id="repertorio">
+    <h2>Repertorio</h2>
+    <p>
+      A Dirty Soul entrega um repertório colossal com mais de 100 músicas. É uma viagem intensa pelo
+      Rock Alternativo, Grunge e Metal, que homenageia gigantes como Metallica, Alice in Chains,
+      Nirvana, System of a Down e Foo Fighters. Preparamos um show de alta energia, repleto de hinos
+      que definiram gerações.
+    </p>
+    <p-carousel
+      [value]="['1', '2', '3', '4', '5']"
+      [numVisible]="4"
+      [numScroll]="3"
+      [circular]="true"
+      autoplayInterval="2000"
+      [responsiveOptions]="responsiveOptions"
+    >
+      <ng-template let-img #item>
+        <img
+          class="img-bandas"
+          [src]="'assets/imagens/bandas/' + img + '.png'"
+          alt="imagem bandas"
+        />
+      </ng-template>
+    </p-carousel>
+  </div>
+  <div id="integrantes">
+    <h2>Integrantes</h2>
+    <div id="imagens">
+      <div>
+        <h3>Baixo</h3>
+        <h2>Rogerio</h2>
+        <img src="assets/imagens/rogerio.jpeg" alt="Rogerio" />
+      </div>
+      <div>
+        <h3>Vocal</h3>
+        <h2>Rodrigo</h2>
+        <img src="assets/imagens/rodrigo.jpeg" alt="Rodrigo" />
+      </div>
+      <div>
+        <h3>Bateria</h3>
+        <h2>Glauber</h2>
+        <img src="assets/imagens/glauber.jpeg" alt="Glauber" />
+      </div>
+      <div>
+        <h3>Guitarra</h3>
+        <h2>Felipe</h2>
+        <img src="assets/imagens/felipe.jpeg" alt="Felipe" />
+      </div>
+    </div>
+  </div>
+  <div id="agenda">
+    <h2>Agenda</h2>
+    <div id="locais">
+      <div>
+        <h3>Kremlin</h3>
+        <h4>Praia Grande</h4>
+        <p>31/10</p>
+      </div>
+      <div>
+        <h3>Cachorrão M.C.</h3>
+        <h4>Mongaguá</h4>
+        <p>08/11</p>
+      </div>
+      <div>
+        <h3>Shadowzeiros</h3>
+        <h4>Praia Grande</h4>
+        <p>17/11</p>
+      </div>
+    </div>
+  </div>
+  <div id="contato">
+    <h2>Contato</h2>
+    <div id="contatos">
+      <div>
+        <a href="https://www.instagram.com/bandadirtysoul/" target="_blank"
+          ><img src="assets/imagens/ig.jpg" alt="Instagram"
+        /></a>
+        <a href="https://wa.me/5513991257524" target="_blank"
+          ><img src="assets/imagens/wh.jpg" alt="Whatsapp"
+        /></a>
+      </div>
+      <div id="form">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" [(ngModel)]="nome" />
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone" [(ngModel)]="email" />
+        <label for="nome">E-mail</label>
+        <input type="text" id="email" name="email" [(ngModel)]="tel" />
+        <label for="nome">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" [(ngModel)]="mensagem"></textarea>
+        <button (click)="enviar()">Enviar</button>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <span>Dirty Soul</span>
+</footer>
