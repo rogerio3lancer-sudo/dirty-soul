@@ -83,6 +83,16 @@ export class App implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     if (!this.isBrowser) return;
 
+    // Force scroll to top to prevent PrimeNG carousel from pulling focus/scroll
+    window.scrollTo(0, 0);
+
+    // Prevent carousel buttons from stealing focus on init
+    setTimeout(() => {
+      document.querySelectorAll('.p-carousel-prev, .p-carousel-next').forEach((btn) => {
+        (btn as HTMLElement).setAttribute('tabindex', '-1');
+      });
+    }, 0);
+
     // Scroll reveal using IntersectionObserver
     setTimeout(() => {
       const observer = new IntersectionObserver(

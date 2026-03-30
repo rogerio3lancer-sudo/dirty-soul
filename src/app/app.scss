@@ -336,6 +336,12 @@
 /* PrimeNG Carousel Overrides */
 :host ::ng-deep {
   .p-carousel {
+    /* Prevent carousel from triggering scroll on focus during init */
+    &:focus,
+    & *:focus {
+      outline: none;
+    }
+
     .p-carousel-prev,
     .p-carousel-next {
       color: var(--text-muted) !important;
