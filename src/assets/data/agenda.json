@@ -1,0 +1,20 @@
+[
+  {
+    "local": "Studio Rock",
+    "cidade": "Santos",
+    "data": "28/03",
+    "destaque": false
+  },
+  {
+    "local": "Studio Rock",
+    "cidade": "Santos",
+    "data": "01/05",
+    "destaque": false
+  },
+  {
+    "local": "Cachorrão MC",
+    "cidade": "São Paulo",
+    "data": "24/05",
+    "destaque": true
+  }
+]
