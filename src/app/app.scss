@@ -376,6 +376,82 @@
 }
 
 /* ========================================
+   SOAD — Tributo
+   ======================================== */
+.soad-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.soad-text-col {
+  flex: 1;
+
+  .section-title {
+    margin-bottom: 24px;
+  }
+}
+
+.soad-text {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+
+  strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+}
+
+.soad-video-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.soad-video-wrapper {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+  background: var(--bg-card);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  transition: all var(--transition-medium);
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 2px;
+    background: var(--accent-gradient);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    opacity: 0.4;
+    transition: opacity var(--transition-medium);
+    z-index: 1;
+  }
+
+  &:hover {
+    box-shadow: 0 8px 40px rgba(230, 57, 70, 0.15);
+    transform: translateY(-4px);
+
+    &::before {
+      opacity: 0.8;
+    }
+  }
+
+  video {
+    display: block;
+    width: 100%;
+    border-radius: inherit;
+  }
+}
+
+/* ========================================
    INTEGRANTES
    ======================================== */
 .members-grid {
@@ -1014,6 +1090,17 @@ footer {
   .contato-grid {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+
+  .soad-container {
+    flex-direction: column;
+    gap: 36px;
+    text-align: center;
+
+    .section-title::after {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   .mediakit-container {
